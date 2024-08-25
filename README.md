@@ -7,19 +7,31 @@ O objetivo do projeto é incrementar as funcionalidades presentes da versão des
 ## Fazer download do projeto
 git checkout 
 
+## Criar o ambiente virtual e instalar requirements.txt
+
+`cd esp_tec`
+
+`python -m venv venv`
+
+-`venv/Script/activate`
+
+`python -m pip install --upgrade pip`
+
+`pip install -r requirements.txt`
+
 ## Criar o Banco de Dados
 `python manage.py migrate`
-
 
 ## Criar o Usuário admin
 `python manage.py createsuperuser`
 
-## Exportar dados
+## Carregar dados iniciais
+`python.exe .\manage.py loaddata .\fixtures\teste.json`
+
+## Outros comandos
+
+Atualizar o arquivo requirements.txt
+`pip freeze > requirements.txt`
 
 Para criar a fixture com os dados:
-
-`python -Xutf8 .\manage.py dumpdata app_gerenciador --indent 2 -o .\fixtures\teste.json`
-
-Para carregar a fixture criada:
-
-`python.exe .\manage.py loaddata .\fixtures\teste.json`
+`python -Xutf8 .\manage.py dumpdata app_gerenciador --indent 2 -o .\fixtures\initial_load.json`
