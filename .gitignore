@@ -6,3 +6,4 @@ esp_tec/db.sqlite3
 
 # Ignore pycache
 esp_tec/*/__pycache__/
+esp_tec/app_gerenciador/tests/__pycache__/

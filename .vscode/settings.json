@@ -1,0 +1,14 @@
+{
+    "python.testing.pytestArgs": [
+        "esp_tec"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./esp_tec",
+        "-p",
+        "test_*.py"
+    ]
+}

@@ -24,7 +24,7 @@ O objetivo do projeto é incrementar as funcionalidades presentes da versão des
 `python manage.py createsuperuser`
 
 ## Carregar dados iniciais
-`python.exe .\manage.py loaddata .\fixtures\teste.json`
+`python.exe .\manage.py loaddata .\fixtures\dados_completos.json`
 
 ## Outros comandos
 
@@ -32,4 +32,6 @@ Atualizar o arquivo requirements.txt
 `pip freeze > requirements.txt`
 
 Para criar a fixture com os dados:
-`python -Xutf8 .\manage.py dumpdata app_gerenciador --indent 2 -o .\fixtures\initial_load.json`
+`python -Xutf8 .\manage.py dumpdata app_gerenciador --indent 2 -o .\fixtures\dados_completos.json`
+
+`python -Xutf8 .\manage.py dumpdata app_gerenciador.material --indent 2 -o .\fixtures\material.json`
