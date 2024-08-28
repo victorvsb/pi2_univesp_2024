@@ -5,11 +5,9 @@ Repositório para o PI-2 da UNIVESP - Grupo DRP03-PJI240-SALA-003GRUPO-015
 O objetivo do projeto é incrementar as funcionalidades presentes da versão desenvolvida no PI-1.
 
 ## Fazer download do projeto
-git checkout 
+`git clone https://github.com/victorvsb/pi2_univesp_2024`
 
 ## Criar o ambiente virtual e instalar requirements.txt
-
-`cd esp_tec`
 
 `python -m venv venv`
 
