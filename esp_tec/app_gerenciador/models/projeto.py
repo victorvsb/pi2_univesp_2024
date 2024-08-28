@@ -9,7 +9,7 @@ class Projeto(models.Model):
     """
     Modelo da persistência de Projetos
     """
-    
+
     nome = models.CharField(
         max_length=100,
         verbose_name='Nome do projeto'
