@@ -1,0 +1,31 @@
+[
+{
+  "model": "app_gerenciador.projeto",
+  "pk": 1,
+  "fields": {
+    "nome": "Construção de uma Casa de Campo Minimalista",
+    "descricao": "O projeto consiste na construção de uma casa de campo minimalista, projetada para ser uma estrutura funcional e econômica, utilizando o mínimo possível de materiais e serviços, mantendo, no entanto, a segurança, durabilidade e conforto. A casa será localizada em uma área rural com pouco relevo, evitando a necessidade de grandes movimentações de terra.\r\nCaracterísticas do Projeto:\r\n\r\nÁrea construída: 50 m²\r\nPiso térreo: Sem lajes ou andares superiores.\r\nEstrutura: Mista, utilizando blocos de concreto e madeira.\r\nTelhado: Simples, com telhas de fibrocimento.\r\nRevestimentos: Mínimos, com uso de pintura externa e interna simples.",
+    "dt_criacao": "2024-08-25",
+    "lista_de_materiais": [
+      1,
+      2,
+      3,
+      7,
+      10,
+      13,
+      22,
+      30
+    ],
+    "lista_de_servicos": [
+      2,
+      4,
+      5,
+      7,
+      8,
+      9,
+      13,
+      27
+    ]
+  }
+}
+]

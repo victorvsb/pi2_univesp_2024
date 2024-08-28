@@ -1,0 +1,130 @@
+[
+{
+  "model": "app_gerenciador.material",
+  "pk": 1,
+  "fields": {
+    "nome": "Cimento",
+    "unidade_medida": "Kg"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 2,
+  "fields": {
+    "nome": "Areia",
+    "unidade_medida": "m2"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 3,
+  "fields": {
+    "nome": "Bloco",
+    "unidade_medida": "cento"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 4,
+  "fields": {
+    "nome": "Cano PVC 3/4",
+    "unidade_medida": "m"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 5,
+  "fields": {
+    "nome": "Brita",
+    "unidade_medida": "Kg"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 6,
+  "fields": {
+    "nome": "Azulejo",
+    "unidade_medida": "unidade"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 3,
+  "fields": {
+    "codigo": "05.06.102",
+    "nome": "ESCAVAÇÃO MECÂNICA",
+    "descricao": "Escavação mecânica de valas não escoradas em material de 1ª Categoria, locais com alto nível de interferência, largura até 1,5m e profundidade 0<h<1,5m",
+    "unidade_medida": "m³",
+    "quantidade": "132"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 4,
+  "fields": {
+    "codigo": "05.06.102.eb",
+    "nome": "ESCAVAÇÃO MECÂNICA",
+    "descricao": "Escavação mecânica de valas não escoradas em material de 1ª Categoria, locais com alto nível de interferência, largura até 1,5m e profundidade 1,5<h<3,0m",
+    "unidade_medida": "m³",
+    "quantidade": "108"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 5,
+  "fields": {
+    "codigo": "05.06.103.aa",
+    "nome": "REATERRO COMPACTADO",
+    "descricao": "Reaterro mecânico de valas compactado com material de 1ª Categoria, em locais com alto nível de interferência, largura até 1,5m e profundidade 0<h<1,5m",
+    "unidade_medida": "m³",
+    "quantidade": "100"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 6,
+  "fields": {
+    "codigo": "05.06.203.aa",
+    "nome": "LASTRO DE AREIA",
+    "descricao": "Lastro de areia em vala com largura menor que 1,5m em local com alto nível de interferência",
+    "unidade_medida": "m³",
+    "quantidade": "143"
+  }
+},
+{
+  "model": "app_gerenciador.projeto",
+  "pk": 1,
+  "fields": {
+    "nome": "Construção da Nova Sede do CCA-SJ",
+    "descricao": "Projeto do prédio que será utilizado como nova sede do Centro de Computação da Aeronáutica de São José dos Campos nas dependências do Departamento de Ciência e Tecnologia Aeroespacial.",
+    "dt_criacao": "2024-03-22",
+    "lista_de_materiais": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "lista_de_servicos": [
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "app_gerenciador.projeto",
+  "pk": 4,
+  "fields": {
+    "nome": "testeteste",
+    "descricao": "teste",
+    "dt_criacao": "2024-03-23",
+    "lista_de_materiais": [
+      4
+    ],
+    "lista_de_servicos": []
+  }
+}
+]

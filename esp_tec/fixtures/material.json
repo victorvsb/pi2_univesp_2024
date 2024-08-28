@@ -1,0 +1,243 @@
+[
+    {
+      "model": "app_gerenciador.material",
+      "pk": 1,
+      "fields": {
+        "nome": "Areia",
+        "unidade_medida": "Metro cúbico (m³)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 2,
+      "fields": {
+        "nome": "Brita",
+        "unidade_medida": "Metro cúbico (m³)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 3,
+      "fields": {
+        "nome": "Bloco de concreto",
+        "unidade_medida": "Unidade (un)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 4,
+      "fields": {
+        "nome": "Tijolo cerâmico",
+        "unidade_medida": "Unidade (un)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 5,
+      "fields": {
+        "nome": "Aço CA-50 (barras de aço)",
+        "unidade_medida": "Quilograma (kg)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 6,
+      "fields": {
+        "nome": "Vergalhão de aço",
+        "unidade_medida": "Metro (m)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 7,
+      "fields": {
+        "nome": "Tubo de PVC",
+        "unidade_medida": "Metro (m)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 8,
+      "fields": {
+        "nome": "Tubo de cobre",
+        "unidade_medida": "Metro (m)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 9,
+      "fields": {
+        "nome": "Arame recozido",
+        "unidade_medida": "Quilograma (kg)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 10,
+      "fields": {
+        "nome": "Madeira serrada",
+        "unidade_medida": "Metro cúbico (m³)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 11,
+      "fields": {
+        "nome": "Concreto usinado",
+        "unidade_medida": "Metro cúbico (m³)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 12,
+      "fields": {
+        "nome": "Manta asfáltica",
+        "unidade_medida": "Metro quadrado (m²)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 13,
+      "fields": {
+        "nome": "Telha de fibrocimento",
+        "unidade_medida": "Unidade (un)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 14,
+      "fields": {
+        "nome": "Telha cerâmica",
+        "unidade_medida": "Unidade (un)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 15,
+      "fields": {
+        "nome": "Gesso acartonado (Drywall)",
+        "unidade_medida": "Placa (m²)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 16,
+      "fields": {
+        "nome": "Argamassa",
+        "unidade_medida": "Saco (20 kg)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 17,
+      "fields": {
+        "nome": "Cal hidratada",
+        "unidade_medida": "Saco (20 kg)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 18,
+      "fields": {
+        "nome": "Chapa de aço galvanizado",
+        "unidade_medida": "Metro quadrado (m²)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 19,
+      "fields": {
+        "nome": "Vidro temperado",
+        "unidade_medida": "Metro quadrado (m²)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 20,
+      "fields": {
+        "nome": "Piso cerâmico",
+        "unidade_medida": "Metro quadrado (m²)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 21,
+      "fields": {
+        "nome": "Rejunte",
+        "unidade_medida": "Saco (1 kg)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 22,
+      "fields": {
+        "nome": "Tinta látex",
+        "unidade_medida": "Litro (L)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 23,
+      "fields": {
+        "nome": "Impermeabilizante",
+        "unidade_medida": "Litro (L)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 24,
+      "fields": {
+        "nome": "Tubulação de esgoto",
+        "unidade_medida": "Metro (m)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 25,
+      "fields": {
+        "nome": "Caixa de inspeção",
+        "unidade_medida": "Unidade (un)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 26,
+      "fields": {
+        "nome": "Ferro para formas",
+        "unidade_medida": "Metro (m)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 27,
+      "fields": {
+        "nome": "Brita graduada",
+        "unidade_medida": "Metro cúbico (m³)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 28,
+      "fields": {
+        "nome": "Adesivo estrutural",
+        "unidade_medida": "Quilograma (kg)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 29,
+      "fields": {
+        "nome": "Isolamento térmico (lã de vidro, EPS)",
+        "unidade_medida": "Metro quadrado (m²)"
+      }
+    },
+    {
+      "model": "app_gerenciador.material",
+      "pk": 30,
+      "fields": {
+        "nome": "Cimento Portland",
+        "unidade_medida": "Saco (50 kg)"
+      }
+    }
+  ]
+  

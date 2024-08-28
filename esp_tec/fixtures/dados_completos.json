@@ -1,0 +1,601 @@
+[
+{
+  "model": "app_gerenciador.material",
+  "pk": 1,
+  "fields": {
+    "nome": "Areia",
+    "unidade_medida": "Metro cúbico (m³)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 2,
+  "fields": {
+    "nome": "Brita",
+    "unidade_medida": "Metro cúbico (m³)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 3,
+  "fields": {
+    "nome": "Bloco de concreto",
+    "unidade_medida": "Unidade (un)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 4,
+  "fields": {
+    "nome": "Tijolo cerâmico",
+    "unidade_medida": "Unidade (un)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 5,
+  "fields": {
+    "nome": "Aço CA-50 (barras de aço)",
+    "unidade_medida": "Quilograma (kg)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 6,
+  "fields": {
+    "nome": "Vergalhão de aço",
+    "unidade_medida": "Metro (m)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 7,
+  "fields": {
+    "nome": "Tubo de PVC",
+    "unidade_medida": "Metro (m)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 8,
+  "fields": {
+    "nome": "Tubo de cobre",
+    "unidade_medida": "Metro (m)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 9,
+  "fields": {
+    "nome": "Arame recozido",
+    "unidade_medida": "Quilograma (kg)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 10,
+  "fields": {
+    "nome": "Madeira serrada",
+    "unidade_medida": "Metro cúbico (m³)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 11,
+  "fields": {
+    "nome": "Concreto usinado",
+    "unidade_medida": "Metro cúbico (m³)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 12,
+  "fields": {
+    "nome": "Manta asfáltica",
+    "unidade_medida": "Metro quadrado (m²)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 13,
+  "fields": {
+    "nome": "Telha de fibrocimento",
+    "unidade_medida": "Unidade (un)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 14,
+  "fields": {
+    "nome": "Telha cerâmica",
+    "unidade_medida": "Unidade (un)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 15,
+  "fields": {
+    "nome": "Gesso acartonado (Drywall)",
+    "unidade_medida": "Placa (m²)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 16,
+  "fields": {
+    "nome": "Argamassa",
+    "unidade_medida": "Saco (20 kg ou 50 kg)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 17,
+  "fields": {
+    "nome": "Cal hidratada",
+    "unidade_medida": "Saco (20 kg ou 50 kg)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 18,
+  "fields": {
+    "nome": "Chapa de aço galvanizado",
+    "unidade_medida": "Metro quadrado (m²)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 19,
+  "fields": {
+    "nome": "Vidro temperado",
+    "unidade_medida": "Metro quadrado (m²)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 20,
+  "fields": {
+    "nome": "Piso cerâmico",
+    "unidade_medida": "Metro quadrado (m²)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 21,
+  "fields": {
+    "nome": "Rejunte",
+    "unidade_medida": "Saco (1 kg ou 5 kg)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 22,
+  "fields": {
+    "nome": "Tinta látex",
+    "unidade_medida": "Litro (L) ou Galão (3,6 L)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 23,
+  "fields": {
+    "nome": "Impermeabilizante",
+    "unidade_medida": "Litro (L) ou Galão (3,6 L)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 24,
+  "fields": {
+    "nome": "Tubulação de esgoto",
+    "unidade_medida": "Metro (m)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 25,
+  "fields": {
+    "nome": "Caixa de inspeção",
+    "unidade_medida": "Unidade (un)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 26,
+  "fields": {
+    "nome": "Ferro para formas",
+    "unidade_medida": "Metro (m)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 27,
+  "fields": {
+    "nome": "Brita graduada",
+    "unidade_medida": "Metro cúbico (m³)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 28,
+  "fields": {
+    "nome": "Adesivo estrutural",
+    "unidade_medida": "Quilograma (kg) ou Litro (L)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 29,
+  "fields": {
+    "nome": "Isolamento térmico (lã de vidro, EPS)",
+    "unidade_medida": "Metro quadrado (m²) ou Rolo (m²)"
+  }
+},
+{
+  "model": "app_gerenciador.material",
+  "pk": 30,
+  "fields": {
+    "nome": "Cimento Portland",
+    "unidade_medida": "Saco (50 kg)"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 1,
+  "fields": {
+    "codigo": "73.45.892.cd",
+    "nome": "Terraplenagem",
+    "descricao": "Nivelamento e preparação do terreno para construção.",
+    "unidade_medida": "Metro cúbico (m³)",
+    "quantidade": "7"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 2,
+  "fields": {
+    "codigo": "28.19.304.ef",
+    "nome": "Escavação",
+    "descricao": "Abertura de valas e buracos no terreno para fundações e infraestrutura.",
+    "unidade_medida": "Metro cúbico (m³)",
+    "quantidade": "15"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 3,
+  "fields": {
+    "codigo": "64.82.157.gh",
+    "nome": "Fundação",
+    "descricao": "Instalação de fundações profundas ou rasas para suporte da estrutura.",
+    "unidade_medida": "Metro quadrado (m²) ou Metro cúbico (m³)",
+    "quantidade": "3"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 4,
+  "fields": {
+    "codigo": "57.36.981.ij",
+    "nome": "Alvenaria",
+    "descricao": "Construção de paredes e muros com tijolos, blocos ou pedras.",
+    "unidade_medida": "Metro quadrado (m²) ou Unidade (un)",
+    "quantidade": "10"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 5,
+  "fields": {
+    "codigo": "91.84.250.kl",
+    "nome": "Concretagem",
+    "descricao": "Preparação e aplicação de concreto em lajes, vigas e colunas.",
+    "unidade_medida": "Metro cúbico (m³)",
+    "quantidade": "8"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 6,
+  "fields": {
+    "codigo": "12.57.683.mn",
+    "nome": "Impermeabilização",
+    "descricao": "Aplicação de produtos para evitar a passagem de água em estruturas.",
+    "unidade_medida": "Metro quadrado (m²)",
+    "quantidade": "12"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 7,
+  "fields": {
+    "codigo": "46.93.208.op",
+    "nome": "Instalação hidráulica",
+    "descricao": "Colocação de tubulações e sistemas hidráulicos para água e esgoto.",
+    "unidade_medida": "Metro linear (m) ou Unidade (un)",
+    "quantidade": "5"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 8,
+  "fields": {
+    "codigo": "83.29.517.qr",
+    "nome": "Instalação elétrica",
+    "descricao": "Passagem de fiação e instalação de dispositivos elétricos e quadros de distribuição.",
+    "unidade_medida": "Ponto (pt) ou Metro linear (m)",
+    "quantidade": "18"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 9,
+  "fields": {
+    "codigo": "74.68.901.st",
+    "nome": "Cobertura",
+    "descricao": "Instalação de telhados e sistemas de drenagem para proteção das edificações.",
+    "unidade_medida": "Metro quadrado (m²)",
+    "quantidade": "6"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 10,
+  "fields": {
+    "codigo": "95.41.736.uv",
+    "nome": "Revestimento",
+    "descricao": "Aplicação de argamassa, gesso ou drywall em paredes e tetos.",
+    "unidade_medida": "Metro quadrado (m²)",
+    "quantidade": "9"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 11,
+  "fields": {
+    "codigo": "51.30.284.wx",
+    "nome": "Pavimentação",
+    "descricao": "Colocação de pisos cerâmicos, porcelanatos, vinílicos ou de concreto.",
+    "unidade_medida": "Metro quadrado (m²)",
+    "quantidade": "4"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 12,
+  "fields": {
+    "codigo": "67.23.905.yz",
+    "nome": "Instalação de esquadrias",
+    "descricao": "Colocação de portas, janelas e marcos de alumínio, madeira ou PVC.",
+    "unidade_medida": "Metro quadrado (m²) ou Unidade (un)",
+    "quantidade": "11"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 13,
+  "fields": {
+    "codigo": "82.47.396.ab",
+    "nome": "Pintura",
+    "descricao": "Preparação e aplicação de tinta em superfícies internas e externas.",
+    "unidade_medida": "Metro quadrado (m²)",
+    "quantidade": "2"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 14,
+  "fields": {
+    "codigo": "38.12.547.cd",
+    "nome": "Instalação de vidros",
+    "descricao": "Colocação de vidros em janelas, portas e fachadas.",
+    "unidade_medida": "Metro quadrado (m²)",
+    "quantidade": "17"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 15,
+  "fields": {
+    "codigo": "55.79.823.ef",
+    "nome": "Instalação de isolamentos",
+    "descricao": "Aplicação de materiais para isolamento térmico e acústico.",
+    "unidade_medida": "Metro quadrado (m²) ou Metro cúbico (m³)",
+    "quantidade": "13"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 16,
+  "fields": {
+    "codigo": "21.64.389.gh",
+    "nome": "Drenagem",
+    "descricao": "Instalação de sistemas para controle e escoamento de águas pluviais.",
+    "unidade_medida": "Metro linear (m)",
+    "quantidade": "1"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 17,
+  "fields": {
+    "codigo": "43.27.168.ij",
+    "nome": "Sinalização e demarcação",
+    "descricao": "Pintura de sinalização horizontal em pavimentos e demarcação de áreas.",
+    "unidade_medida": "Metro linear (m) ou Metro quadrado (m²)",
+    "quantidade": "20"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 18,
+  "fields": {
+    "codigo": "30.92.745.kl",
+    "nome": "Paisagismo",
+    "descricao": "Planejamento e execução de áreas verdes, jardins e gramados.",
+    "unidade_medida": "Metro quadrado (m²) ou Unidade (un)",
+    "quantidade": "14"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 19,
+  "fields": {
+    "codigo": "19.83.456.mn",
+    "nome": "Movimentação de terra",
+    "descricao": "Remoção, transporte e compactação de solo para preparação do terreno.",
+    "unidade_medida": "Metro cúbico (m³)",
+    "quantidade": "16"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 20,
+  "fields": {
+    "codigo": "77.16.902.op",
+    "nome": "Fundações profundas",
+    "descricao": "Execução de estacas cravadas ou perfuradas para suporte estrutural.",
+    "unidade_medida": "Metro linear (m)",
+    "quantidade": "19"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 21,
+  "fields": {
+    "codigo": "59.84.713.qr",
+    "nome": "Construção de lajes",
+    "descricao": "Execução de lajes maciças, pré-moldadas ou treliçadas.",
+    "unidade_medida": "Metro quadrado (m²)",
+    "quantidade": "8"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 22,
+  "fields": {
+    "codigo": "84.29.375.st",
+    "nome": "Instalação de sistemas de HVAC",
+    "descricao": "Montagem de sistemas de aquecimento, ventilação e ar condicionado.",
+    "unidade_medida": "Unidade (un) ou Metro quadrado (m²)",
+    "quantidade": "5"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 23,
+  "fields": {
+    "codigo": "65.78.214.uv",
+    "nome": "Instalação de sistemas de segurança",
+    "descricao": "Instalação de alarmes, câmeras de segurança e sistemas de controle de acesso.",
+    "unidade_medida": "Ponto (pt) ou Unidade (un)",
+    "quantidade": "12"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 24,
+  "fields": {
+    "codigo": "91.63.782.wx",
+    "nome": "Montagem de estruturas metálicas",
+    "descricao": "Construção de estruturas em aço para suportar coberturas e mezaninos.",
+    "unidade_medida": "Tonelada (t) ou Metro quadrado (m²)",
+    "quantidade": "3"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 25,
+  "fields": {
+    "codigo": "12.47.369.yz",
+    "nome": "Execução de muros de arrimo",
+    "descricao": "Construção de muros para contenção de terras em áreas inclinadas.",
+    "unidade_medida": "Metro quadrado (m²)",
+    "quantidade": "9"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 26,
+  "fields": {
+    "codigo": "76.58.214.ab",
+    "nome": "Acabamento interno",
+    "descricao": "Instalação de rodapés, sancas e molduras internas.",
+    "unidade_medida": "Metro linear (m) ou Unidade (un)",
+    "quantidade": "6"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 27,
+  "fields": {
+    "codigo": "32.71.906.cd",
+    "nome": "Acabamento externo",
+    "descricao": "Aplicação de revestimentos e pintura em fachadas.",
+    "unidade_medida": "Metro quadrado (m²)",
+    "quantidade": "14"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 28,
+  "fields": {
+    "codigo": "68.53.214.ef",
+    "nome": "Demolição",
+    "descricao": "Remoção de estruturas existentes para novas construções ou reformas.",
+    "unidade_medida": "Metro cúbico (m³) ou Unidade (un)",
+    "quantidade": "7"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 29,
+  "fields": {
+    "codigo": "45.92.738.gh",
+    "nome": "Montagem de andaimes",
+    "descricao": "Instalação de andaimes para acesso a áreas elevadas durante a construção.",
+    "unidade_medida": "Metro quadrado (m²) ou Unidade (un)",
+    "quantidade": "16"
+  }
+},
+{
+  "model": "app_gerenciador.servico",
+  "pk": 30,
+  "fields": {
+    "codigo": "23.86.471.ij",
+    "nome": "Testes e comissionamento",
+    "descricao": "Verificação e ajuste de sistemas elétricos, hidráulicos e HVAC antes da entrega final.",
+    "unidade_medida": "Unidade (un) ou Serviço (srv)",
+    "quantidade": "10"
+  }
+},
+{
+  "model": "app_gerenciador.projeto",
+  "pk": 1,
+  "fields": {
+    "nome": "Construção de uma Casa de Campo Minimalista",
+    "descricao": "O projeto consiste na construção de uma casa de campo minimalista, projetada para ser uma estrutura funcional e econômica, utilizando o mínimo possível de materiais e serviços, mantendo, no entanto, a segurança, durabilidade e conforto. A casa será localizada em uma área rural com pouco relevo, evitando a necessidade de grandes movimentações de terra.\r\nCaracterísticas do Projeto:\r\n\r\nÁrea construída: 50 m²\r\nPiso térreo: Sem lajes ou andares superiores.\r\nEstrutura: Mista, utilizando blocos de concreto e madeira.\r\nTelhado: Simples, com telhas de fibrocimento.\r\nRevestimentos: Mínimos, com uso de pintura externa e interna simples.",
+    "dt_criacao": "2024-08-25",
+    "lista_de_materiais": [
+      1,
+      2,
+      3,
+      7,
+      10,
+      13,
+      22,
+      30
+    ],
+    "lista_de_servicos": [
+      2,
+      4,
+      5,
+      7,
+      8,
+      9,
+      13,
+      27
+    ]
+  }
+}
+]

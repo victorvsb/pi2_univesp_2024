@@ -1,0 +1,39 @@
+<html>
+
+    <head>
+        <title> Especificação Técnica </title>
+    </head>
+
+    <body>
+        <h1> Especificação Técnica </h1>
+        <h2> {{ object.nome }} </h2>
+        <h3> Criado em {{ object.dt_criacao }}. </h3>
+
+        <h3> Descrição </h3>
+        <p>
+            {{ object.descricao }}
+        </p>
+
+        {% if object.lista_de_materiais %}
+        <h3> Lista de materiais </h3>
+        <ul>
+            {% for item in object.lista_de_materiais.all %}
+            <li> {{ item }} </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if object.lista_de_servicos %}
+        <h3> Lista de serviços </h3>
+        <ul>
+            {% for item in object.lista_de_servicos.all %}
+            <li> {{ item }} - {{ item.nome }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        
+        <p> São José dos Campos, {{ hoje }}. </p>
+
+    </body>
+
+</html>
