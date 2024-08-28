@@ -1,0 +1,8 @@
+# Ignore venv
+esp_tec/venv/
+
+# Ignore Database
+esp_tec/db.sqlite3
+
+# Ignore pycache
+esp_tec/*/__pycache__/
