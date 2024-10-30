@@ -26,6 +26,11 @@ from app_gerenciador.views.projeto import (
     ProjetoDeleteView
 )
 
+from app_gerenciador.views.material import(
+    MaterialListView,
+    MaterialCreateView
+)
+
 urlpatterns = [
     path("admin/", admin.site.urls, name="admin"),
     path('report/<int:pk>/',
@@ -53,5 +58,14 @@ urlpatterns = [
         ProjetoDeleteView.as_view(),
         name = 'projeto_delete'
     ),
-    path('', home, name='home')
+    path('', home, name='home'),
+
+    path('material/',
+        MaterialListView.as_view(),
+        name = 'material_list'
+    ),
+    path('material/adicionar',
+        MaterialCreateView.as_view(),
+        name = 'material_adicionar'
+    ),
 ]

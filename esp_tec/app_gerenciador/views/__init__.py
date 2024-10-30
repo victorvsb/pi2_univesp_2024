@@ -5,6 +5,11 @@ from .projeto import (
     ProjetoListView,
 )
 
+from .material import(
+    MaterialListView,
+    MaterialCreateView,
+)
+
 from .report import (
     ProjectReport,
     render_to_pdf,
@@ -17,5 +22,7 @@ __all__ = [
     'ProjectReport',
     'render_to_pdf',
     'ViewPDF',
-    'home'
+    'home',
+    'MaterialListView',
+    'MaterialCreateView'
 ]
